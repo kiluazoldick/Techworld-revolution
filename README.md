@@ -28,4 +28,3 @@ Le site est construit avec Next.js et utilise les technologies suivantes:
 9. **Politique de confidentialité** (`/politique-confidentialite`)
 10. **Conditions générales** (`/conditions-generales`)
 11. **Demander un devis** (`/devis`)
-# globalsolutionandservices
