@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Header from "@/components/layout/Header/page";
+
 
 import HeroSection from "@/components/sections/HeroSection/page";
 import AboutSection from "@/components/sections/AboutSection/page";
@@ -22,7 +22,7 @@ export default function Home() {
           content="Spécialisés dans le transport de matières premières pour cimenteries, nous assurons une logistique fiable et optimisée sur tout le territoire national."
         />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+     
 
       <Header />
       <main>
