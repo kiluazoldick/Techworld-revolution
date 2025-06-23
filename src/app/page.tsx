@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Header from "@/components/layout/Header/page";
-import Footer from "@/components/layout/Footer/page";
+
 import HeroSection from "@/components/sections/HeroSection/page";
 import AboutSection from "@/components/sections/AboutSection/page";
 import ServicesSection from "@/components/sections/ServicesSection/page";
@@ -36,7 +36,7 @@ export default function Home() {
         <ContactSection />
         <GoogleMapSection />
       </main>
-      <Footer />
+     
     </>
   );
 }
