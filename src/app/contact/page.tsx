@@ -30,6 +30,37 @@ const ContactPage = () => {
         </div>
       </header>
 
+      {/* Breadcrumb */}
+      <div className="bg-gray-100 py-3">
+        <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
+          <nav className="text-sm">
+            <ol className="list-none p-0 inline-flex">
+              <li className="flex items-center">
+                {/*eslint-disable-next-line @next/next/no-html-link-for-pages */}
+                <a href="/" className="text-[#d32a2b] hover:underline">
+                  Accueil
+                </a>
+                <svg
+                  className="w-3 h-3 mx-3"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </li>
+              <li className="text-gray-500">Contact</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
       {/* Main Content */}
       <main className="py-16">
         <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
