@@ -1,6 +1,5 @@
 // components/TestimonialsSection.js
 import React from "react";
-import Image from "next/image";
 
 const TestimonialsSection = () => {
   const testimonials = [
@@ -11,7 +10,7 @@ const TestimonialsSection = () => {
       company: "Ciments du Sahel",
       content:
         "Leur service de transport est exceptionnel. Ponctualité et professionnalisme garantis à chaque livraison.",
-      avatar: "https://randomuser.me/api/portraits/women/45.jpg",
+      avatar: "images/marie.jpg",
       rating: 5,
     },
     {
@@ -21,7 +20,7 @@ const TestimonialsSection = () => {
       company: "Industrie Métallurgique SA",
       content:
         "La qualité des structures métalliques fabriquées dépasse nos attentes. Un partenaire fiable pour nos projets complexes.",
-      avatar: "https://randomuser.me/api/portraits/men/32.jpg",
+      avatar: "images/jean.jpg",
       rating: 4,
     },
     {
@@ -31,7 +30,7 @@ const TestimonialsSection = () => {
       company: "Groupe BTP Ouest",
       content:
         "Leur expertise en ingénierie industrielle nous a permis d'optimiser nos processus de production de manière significative.",
-      avatar: "https://randomuser.me/api/portraits/women/68.jpg",
+      avatar: "images/sophie.jpg",
       rating: 5,
     },
   ];
@@ -77,15 +76,15 @@ const TestimonialsSection = () => {
               className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
               <div className="flex items-center mb-6">
-                <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-[#d32a2b]">
-                  <Image
-                    src={testimonial.avatar}
-                    alt={testimonial.name}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-full"
-                  />
-                </div>
+                <div
+                  className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-[#d32a2b]"
+                  style={{
+                    backgroundImage: `url(${testimonial.avatar})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                ></div>
                 <div className="ml-4">
                   <h3 className="text-lg font-bold text-gray-900">
                     {testimonial.name}

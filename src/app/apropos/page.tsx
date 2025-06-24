@@ -23,23 +23,23 @@ const AProposPage = () => {
     {
       id: 2,
       name: "Marie Lambert",
-      role: "Directrice des Opérations",
-      bio: "Spécialiste de la chaîne d'approvisionnement, Marie optimise nos processus pour garantir une efficacité maximale.",
-      img: "/images/marie.jpg",
+      role: "Assistante administrative",
+      bio: "Gestionnaire organisée et efficace, elle assure le bon fonctionnement quotidien de nos services administratifs et logistiques.",
+      img: "/images/employe2.jpg",
     },
     {
       id: 3,
       name: "Thomas Martin",
-      role: "Responsable Technique",
-      bio: "Ingénieur de formation, Thomas supervise nos projets d'ingénierie industrielle et de maintenance.",
-      img: "/images/thomas.jpg",
+      role: "Responsable logistique",
+      bio: "Expert en planification des flux, il coordonne nos opérations de transport pour garantir des livraisons optimales et ponctuelles.",
+      img: "/images/employe1.jpg",
     },
     {
       id: 4,
-      name: "Sophie Dubois",
-      role: "Chef de Projets Logistiques",
-      bio: "Sophie coordonne nos opérations de transport et veille au respect des délais et des normes de sécurité.",
-      img: "/images/sophie.jpg",
+      name: "Antoine Dubois",
+      role: "Agent logistique",
+      bio: "Opérateur terrain méticuleux, il veille au chargement et à la sécurisation des marchandises selon les normes en vigueur.",
+      img: "/images/employe3.jpg",
     },
   ];
 
@@ -85,7 +85,7 @@ const AProposPage = () => {
         <div
           className="absolute inset-0 bg-cover bg-center z-0 "
           style={{
-            backgroundImage: "url('images/equipeheader.jpg')",
+            backgroundImage: "url('images/grpe1.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -105,32 +105,33 @@ const AProposPage = () => {
         </div>
       </div>
 
-      {/* Section Notre Histoire */}
+      {/* Section Notre Histoire - CORRIGÉE POUR LE RESPONSIVE */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="md:w-1/2">
-              <div
-                className="relative rounded-xl overflow-hidden shadow-xl"
-                style={{
-                  backgroundImage: "url('images/equipeheader.jpg')",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  backgroundRepeat: "no-repeat",
-                  height: "90vh",
-                }}
-              >
-                <div className="absolute inset-0 bg-gradient-to-t from-[#1b314e] to-transparent opacity-70"></div>
-                <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                  <p className="text-sm">
-                    Fondation de Global Solution & Services SARL
-                  </p>
-                  <h3 className="text-xl font-bold">Depuis 2022</h3>
+            {/* Conteneur image - Ajusté pour le responsive */}
+            <div className="w-full md:w-1/2 order-2 md:order-1 mt-8 md:mt-0">
+              <div className="relative rounded-xl overflow-hidden shadow-xl aspect-w-16 aspect-h-9">
+                <div
+                  className="bg-cover bg-center w-full h-full"
+                  style={{
+                    backgroundImage: "url('images/grp3.jpg')",
+                    minHeight: "300px",
+                  }}
+                >
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#1b314e] to-transparent opacity-70"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                    <p className="text-sm">
+                      Fondation de Global Solution & Services SARL
+                    </p>
+                    <h3 className="text-xl font-bold">Depuis 2022</h3>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div className="md:w-1/2">
+            {/* Contenu texte - Déplacé en premier sur mobile */}
+            <div className="w-full md:w-1/2 order-1 md:order-2">
               <h2 className="text-3xl font-bold text-[#1b314e] mb-6">
                 Notre histoire
               </h2>

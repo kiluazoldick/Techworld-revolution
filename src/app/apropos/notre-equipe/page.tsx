@@ -8,29 +8,29 @@ const NotreEquipePage = () => {
       id: 1,
       name: "Jean Dupont",
       role: "Directeur Général",
-      bio: "Fondateur avec 15 ans d'expérience en logistique industrielle.",
+      bio: "Avec plus de 15 ans d'expérience dans la logistique industrielle, Jean pilote la stratégie de développement de l'entreprise.",
       img: "/images/jean.jpg",
     },
     {
       id: 2,
       name: "Marie Lambert",
-      role: "Directrice des Opérations",
-      bio: "Expert en optimisation des chaînes d'approvisionnement.",
-      img: "/images/marie.jpg",
+      role: "Assistante administrative",
+      bio: "Gestionnaire organisée et efficace, elle assure le bon fonctionnement quotidien de nos services administratifs et logistiques.",
+      img: "/images/employe2.jpg",
     },
     {
       id: 3,
       name: "Thomas Martin",
-      role: "Responsable Technique",
-      bio: "Ingénieur spécialisé en solutions industrielles. Supervise tous nos projets",
-      img: "/images/thomas.jpg",
+      role: "Responsable logistique",
+      bio: "Expert en planification des flux, il coordonne nos opérations de transport pour garantir des livraisons optimales et ponctuelles.",
+      img: "/images/employe1.jpg",
     },
     {
       id: 4,
-      name: "Sophie Dubois",
-      role: "Chef de Projets Logistiques",
-      bio: "Gestionnaire de projets avec une expertise en transport international. ",
-      img: "/images/sophie.jpg",
+      name: "Antoine Dubois",
+      role: "Agent logistique",
+      bio: "Opérateur terrain méticuleux, il veille au chargement et à la sécurisation des marchandises selon les normes en vigueur.",
+      img: "/images/employe3.jpg",
     },
     {
       id: 5,
@@ -73,8 +73,17 @@ const NotreEquipePage = () => {
       </Head>
 
       {/* Hero Section */}
-      <div className="relative h-96 w-full">
-        <div className="absolute inset-0 bg-cover bg-center z-0">
+      <div className="relative h-[90vh] w-full">
+        <div
+          className="absolute inset-0 bg-cover bg-center z-0"
+          style={{
+            backgroundImage: "url('images/grpe2.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            height: "90vh",
+          }}
+        >
           <div className="absolute inset-0 bg-gradient-to-r from-[#1b314e] to-transparent opacity-90"></div>
         </div>
         <div className="container mx-auto px-6 relative z-10 h-full flex flex-col justify-center text-white">
