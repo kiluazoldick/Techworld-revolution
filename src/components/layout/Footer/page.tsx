@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com/"
+                href="https://www.facebook.com/profile.php?id=61553668943195"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-[#d32a2b] text-xl transition duration-300"
@@ -66,8 +66,9 @@ const Footer: React.FC = () => {
             <h4 className="font-bold text-lg mb-6">Liens rapides</h4>
             <ul className="space-y-3">
               <li>
+                {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                 <a
-                  href=""
+                  href="/"
                   className="text-gray-300 hover:text-[#d32a2b] transition duration-300 block"
                 >
                   Accueil
