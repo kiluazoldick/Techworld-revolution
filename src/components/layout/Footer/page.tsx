@@ -1,4 +1,3 @@
-// components/Footer.tsx
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,26 +10,25 @@ import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#1b314e] text-white pt-16 pb-8">
+    <footer className="bg-white text-gray-800 pt-16 pb-8 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Colonne 1: Logo et description */}
           <div>
             <h3 className="text-xl font-bold mb-6">
-              <span className="text-[#d32a2b]">G</span>lobal
-              <span className="text-[#d32a2b]">S</span>olution &amp;&nbsp;
-              <span className="text-[#d32a2b]">S</span>ervices
+              <span className="text-[#3b82f6]">T</span>echworld
+              <span className="text-black">R</span>evolution
             </h3>
-            <p className="text-gray-300 mb-6">
-              Votre partenaire logistique pour des solutions intégrées,
-              efficaces et économiques.
+            <p className="text-gray-600 mb-6">
+              Votre partenaire de confiance pour l'électricité bâtiment, industrielle, 
+              réseaux informatiques, domotique et énergies renouvelables.
             </p>
             <div className="flex space-x-4">
               <a
                 href="https://www.facebook.com/profile.php?id=61553668943195"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-[#d32a2b] text-xl transition duration-300"
+                className="text-gray-600 hover:text-[#3b82f6] text-xl transition duration-300"
               >
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
@@ -38,15 +36,15 @@ const Footer: React.FC = () => {
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-[#d32a2b] text-xl transition duration-300"
+                className="text-gray-600 hover:text-[#3b82f6] text-xl transition duration-300"
               >
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
               <a
-                href="https://linkeding.com/"
+                href="https://linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-[#d32a2b] text-xl transition duration-300"
+                className="text-gray-600 hover:text-[#3b82f6] text-xl transition duration-300"
               >
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
@@ -54,7 +52,7 @@ const Footer: React.FC = () => {
                 href="https://instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-[#d32a2b] text-xl transition duration-300"
+                className="text-gray-600 hover:text-[#3b82f6] text-xl transition duration-300"
               >
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
@@ -63,13 +61,12 @@ const Footer: React.FC = () => {
 
           {/* Colonne 2: Liens rapides */}
           <div>
-            <h4 className="font-bold text-lg mb-6">Liens rapides</h4>
+            <h4 className="font-bold text-lg mb-6 text-black">Liens rapides</h4>
             <ul className="space-y-3">
               <li>
-                {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                 <a
                   href="/"
-                  className="text-gray-300 hover:text-[#d32a2b] transition duration-300 block"
+                  className="text-gray-600 hover:text-[#3b82f6] transition duration-300 block"
                 >
                   Accueil
                 </a>
@@ -77,7 +74,7 @@ const Footer: React.FC = () => {
               <li>
                 <a
                   href="/apropos"
-                  className="text-gray-300 hover:text-[#d32a2b] transition duration-300 block"
+                  className="text-gray-600 hover:text-[#3b82f6] transition duration-300 block"
                 >
                   À propos
                 </a>
@@ -85,7 +82,7 @@ const Footer: React.FC = () => {
               <li>
                 <a
                   href="/nos-services"
-                  className="text-gray-300 hover:text-[#d32a2b] transition duration-300 block"
+                  className="text-gray-600 hover:text-[#3b82f6] transition duration-300 block"
                 >
                   Services
                 </a>
@@ -93,7 +90,7 @@ const Footer: React.FC = () => {
               <li>
                 <a
                   href="/nos-realisations"
-                  className="text-gray-300 hover:text-[#d32a2b] transition duration-300 block"
+                  className="text-gray-600 hover:text-[#3b82f6] transition duration-300 block"
                 >
                   Réalisations
                 </a>
@@ -101,7 +98,7 @@ const Footer: React.FC = () => {
               <li>
                 <a
                   href="/contact"
-                  className="text-gray-300 hover:text-[#d32a2b] transition duration-300 block"
+                  className="text-gray-600 hover:text-[#3b82f6] transition duration-300 block"
                 >
                   Contact
                 </a>
@@ -111,46 +108,46 @@ const Footer: React.FC = () => {
 
           {/* Colonne 3: Services */}
           <div>
-            <h4 className="font-bold text-lg mb-6">Nos services</h4>
+            <h4 className="font-bold text-lg mb-6 text-black">Nos services</h4>
             <ul className="space-y-3">
               <li>
                 <a
-                  href="/nos-services/logistique-et-transport"
-                  className="text-gray-300 hover:text-[#d32a2b] transition duration-300 block"
+                  href="/nos-services/electricite-batiment"
+                  className="text-gray-600 hover:text-[#3b82f6] transition duration-300 block"
                 >
-                  Logistique & Transport
+                  Électricité Bâtiment
                 </a>
               </li>
               <li>
                 <a
-                  href="/nos-services/construction-et-btp"
-                  className="text-gray-300 hover:text-[#d32a2b] transition duration-300 block"
+                  href="/nos-services/electricite-industrielle"
+                  className="text-gray-600 hover:text-[#3b82f6] transition duration-300 block"
                 >
-                  Construction & BTP
+                  Électricité Industrielle
                 </a>
               </li>
               <li>
                 <a
-                  href="/nos-services/maintenance-et-ingenierie-industrielle"
-                  className="text-gray-300 hover:text-[#d32a2b] transition duration-300 block"
+                  href="/nos-services/reseau-informatique"
+                  className="text-gray-600 hover:text-[#3b82f6] transition duration-300 block"
                 >
-                  Maintenance & Ingénierie Industrielle
+                  Réseau Informatique
                 </a>
               </li>
               <li>
                 <a
-                  href="/nos-services/chaudronnerie-et-metallerie"
-                  className="text-gray-300 hover:text-[#d32a2b] transition duration-300 block"
+                  href="/nos-services/domotique-electronique"
+                  className="text-gray-600 hover:text-[#3b82f6] transition duration-300 block"
                 >
-                  Chaudronnerie & Métallerie
+                  Domotique & Électronique
                 </a>
               </li>
               <li>
                 <a
-                  href="/nos-services/energie-et-systemes-electriques"
-                  className="text-gray-300 hover:text-[#d32a2b] transition duration-300 block"
+                  href="/nos-services/energie-renouvelable"
+                  className="text-gray-600 hover:text-[#3b82f6] transition duration-300 block"
                 >
-                  Énergie & Systèmes électriques
+                  Énergie Renouvelable
                 </a>
               </li>
             </ul>
@@ -158,20 +155,19 @@ const Footer: React.FC = () => {
 
           {/* Colonne 4: Newsletter */}
           <div>
-            <h4 className="font-bold text-lg mb-6">Newsletter</h4>
-            <p className="text-gray-300 mb-4">
-              Abonnez-vous à notre newsletter pour recevoir nos dernières
-              actualités et offres.
+            <h4 className="font-bold text-lg mb-6 text-black">Newsletter</h4>
+            <p className="text-gray-600 mb-4">
+              Abonnez-vous pour recevoir nos dernières actualités et offres.
             </p>
             <form className="flex">
               <input
                 type="email"
                 placeholder="Votre email"
-                className="px-4 py-2 w-full rounded-l-md focus:outline-none text-gray-800 bg-white"
+                className="px-4 py-2 w-full rounded-l-md focus:outline-none text-gray-800 bg-gray-100 border border-gray-300"
               />
               <button
                 type="submit"
-                className="bg-[#d32a2b] hover:bg-red-700 px-4 py-2 rounded-r-md transition duration-300"
+                className="bg-[#3b82f6] hover:bg-blue-700 px-4 py-2 rounded-r-md transition duration-300"
               >
                 <FontAwesomeIcon icon={faPaperPlane} className="text-white" />
               </button>
@@ -180,26 +176,26 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Section de copyright */}
-        <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-300 text-sm">
-            © 2025 Global Solution and Services SARL. Tous droits réservés.
+        <div className="border-t border-gray-300 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-gray-600 text-sm">
+            © 2025 TechWorld Revolution. Tous droits réservés.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a
               href="/mention-legale"
-              className="text-gray-300 hover:text-[#d32a2b] text-sm transition duration-300"
+              className="text-gray-600 hover:text-[#3b82f6] text-sm transition duration-300"
             >
               Mentions légales
             </a>
             <a
               href="/politique-de-confidentialite"
-              className="text-gray-300 hover:text-[#d32a2b] text-sm transition duration-300"
+              className="text-gray-600 hover:text-[#3b82f6] text-sm transition duration-300"
             >
               Politique de confidentialité
             </a>
             <a
               href="/conditions-generale"
-              className="text-gray-300 hover:text-[#d32a2b] text-sm transition duration-300"
+              className="text-gray-600 hover:text-[#3b82f6] text-sm transition duration-300"
             >
               Conditions générales
             </a>

@@ -22,12 +22,12 @@ const ContactSection = () => {
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-[#1b314e] mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Contactez-nous
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Notre équipe est à votre disposition pour répondre à toutes vos
-            questions et discuter de vos besoins logistiques.
+            Notre équipe est à votre disposition pour répondre à toutes vos 
+            questions et discuter de vos projets électriques et technologiques.
           </p>
         </div>
 
@@ -45,7 +45,7 @@ const ContactSection = () => {
                   <input
                     type="text"
                     id="name"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-[#d32a2b] focus:border-[#d32a2b]"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-[#3b82f6] focus:border-[#3b82f6]"
                   />
                 </div>
                 <div>
@@ -58,7 +58,7 @@ const ContactSection = () => {
                   <input
                     type="text"
                     id="company"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-[#d32a2b] focus:border-[#d32a2b]"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-[#3b82f6] focus:border-[#3b82f6]"
                   />
                 </div>
               </div>
@@ -72,7 +72,7 @@ const ContactSection = () => {
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-[#d32a2b] focus:border-[#d32a2b]"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-[#3b82f6] focus:border-[#3b82f6]"
                 />
               </div>
               <div>
@@ -85,7 +85,7 @@ const ContactSection = () => {
                 <input
                   type="tel"
                   id="phone"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-[#d32a2b] focus:border-[#d32a2b]"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-[#3b82f6] focus:border-[#3b82f6]"
                 />
               </div>
               <div>
@@ -98,13 +98,13 @@ const ContactSection = () => {
                 <textarea
                   id="message"
                   rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-[#d32a2b] focus:border-[#d32a2b]"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-[#3b82f6] focus:border-[#3b82f6]"
                 ></textarea>
               </div>
               <div>
                 <button
                   type="submit"
-                  className="w-full bg-[#d32a2b] hover:bg-red-700 text-white px-6 py-3 rounded-md font-medium text-lg transition duration-300"
+                  className="w-full bg-[#3b82f6] hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium text-lg transition duration-300"
                 >
                   Envoyer le message
                 </button>
@@ -113,55 +113,53 @@ const ContactSection = () => {
           </div>
 
           <div className="lg:w-1/2">
-            <div className="bg-gray-50 p-8 rounded-xl h-full">
-              <h3 className="text-xl font-bold text-[#1b314e] mb-6">
+            <div className="bg-gray-50 p-8 rounded-xl h-full border border-gray-200">
+              <h3 className="text-xl font-bold text-gray-900 mb-6">
                 Nos coordonnées
               </h3>
 
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 text-[#d32a2b] text-2xl mr-4 mt-1">
+                  <div className="flex-shrink-0 text-[#3b82f6] text-2xl mr-4 mt-1">
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
                   </div>
                   <div>
-                    <h4 className="font-medium text-[#1b314e]">Adresse</h4>
+                    <h4 className="font-medium text-gray-900">Adresse</h4>
                     <p className="text-gray-600">
-                      Douala, Cameroun Carrefour Lycee de Makepe
+                      Douala, Cameroun
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 text-[#d32a2b] text-2xl mr-4 mt-1">
+                  <div className="flex-shrink-0 text-[#3b82f6] text-2xl mr-4 mt-1">
                     <FontAwesomeIcon icon={faPhoneAlt} />
                   </div>
                   <div>
-                    <h4 className="font-medium text-[#1b314e]">Téléphone</h4>
-                    <p className="text-gray-600">+237 6 92 27 48 72</p>
-                    <p className="text-gray-600">
-                      +237 6 78 45 50 28 (Urgence)
-                    </p>
+                    <h4 className="font-medium text-gray-900">Téléphone</h4>
+                    <p className="text-gray-600">+237 658 298 002</p>
+                    <p className="text-gray-600">+237 682 840 911</p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 text-[#d32a2b] text-2xl mr-4 mt-1">
+                  <div className="flex-shrink-0 text-[#3b82f6] text-2xl mr-4 mt-1">
                     <FontAwesomeIcon icon={faEnvelope} />
                   </div>
                   <div>
-                    <h4 className="font-medium text-[#1b314e]">Email</h4>
+                    <h4 className="font-medium text-gray-900">Email</h4>
                     <p className="text-gray-600">
-                      contact@globalsolutionandservicessarl.com
+                      techworldrevolution23@gmail.com
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 text-[#d32a2b] text-2xl mr-4 mt-1">
+                  <div className="flex-shrink-0 text-[#3b82f6] text-2xl mr-4 mt-1">
                     <FontAwesomeIcon icon={faClock} />
                   </div>
                   <div>
-                    <h4 className="font-medium text-[#1b314e]">
+                    <h4 className="font-medium text-gray-900">
                       Heures d&#39;ouverture
                     </h4>
                     <p className="text-gray-600">Lundi - Vendredi: 8h - 18h</p>
@@ -171,14 +169,14 @@ const ContactSection = () => {
               </div>
 
               <div className="mt-10">
-                <h4 className="font-medium text-[#1b314e] mb-4">Suivez-nous</h4>
+                <h4 className="font-medium text-gray-900 mb-4">Suivez-nous</h4>
                 <div className="flex space-x-4">
                   <a
                     href="https://facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Facebook"
-                    className="w-10 h-10 rounded-full bg-[#1b314e] text-white flex items-center justify-center hover:bg-[#d32a2b] transition duration-300"
+                    className="w-10 h-10 rounded-full bg-gray-800 text-white flex items-center justify-center hover:bg-[#3b82f6] transition duration-300"
                   >
                     <FontAwesomeIcon icon={faFacebookF} />
                   </a>
@@ -187,7 +185,7 @@ const ContactSection = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Twitter"
-                    className="w-10 h-10 rounded-full bg-[#1b314e] text-white flex items-center justify-center hover:bg-[#d32a2b] transition duration-300"
+                    className="w-10 h-10 rounded-full bg-gray-800 text-white flex items-center justify-center hover:bg-[#3b82f6] transition duration-300"
                   >
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
@@ -196,16 +194,16 @@ const ContactSection = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
-                    className="w-10 h-10 rounded-full bg-[#1b314e] text-white flex items-center justify-center hover:bg-[#d32a2b] transition duration-300"
+                    className="w-10 h-10 rounded-full bg-gray-800 text-white flex items-center justify-center hover:bg-[#3b82f6] transition duration-300"
                   >
                     <FontAwesomeIcon icon={faLinkedinIn} />
                   </a>
                   <a
-                    href="https://wa.me/"
+                    href="https://wa.me/237658298002"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="WhatsApp"
-                    className="w-10 h-10 rounded-full bg-[#1b314e] text-white flex items-center justify-center hover:bg-[#d32a2b] transition duration-300"
+                    className="w-10 h-10 rounded-full bg-gray-800 text-white flex items-center justify-center hover:bg-[#3b82f6] transition duration-300"
                   >
                     <FontAwesomeIcon icon={faWhatsapp} />
                   </a>

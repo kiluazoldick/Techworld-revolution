@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const NotFoundPage = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-[#1b314e] to-[#0d2038]">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-900 to-gray-800">
       <Head>
-        <title>Page en développement - Global Solution & Services</title>
+        <title>Page en développement - TechWorld Revolution</title>
         <meta
           name="description"
           content="Cette page est actuellement en développement"
@@ -19,13 +19,12 @@ const NotFoundPage = () => {
         <div className="max-w-7xl mx-auto">
           <Link href="/">
             <div className="flex items-center cursor-pointer">
-              <div className="bg-[#d32a2b] w-10 h-10 rounded-md flex items-center justify-center text-white text-xl font-bold mr-2">
-                G
+              <div className="bg-[#3b82f6] w-10 h-10 rounded-md flex items-center justify-center text-white text-xl font-bold mr-2">
+                T
               </div>
               <h1 className="text-white text-xl font-bold">
-                <span className="text-[#d32a2b]">G</span>lobal
-                <span className="text-[#d32a2b]">S</span>olution &
-                <span className="text-[#d32a2b]">S</span>ervices
+                <span className="text-[#3b82f6]">T</span>echworld
+                <span className="text-white">R</span>evolution
               </h1>
             </div>
           </Link>
@@ -38,9 +37,9 @@ const NotFoundPage = () => {
           {/* Animation de construction */}
           <div className="mb-10 flex justify-center">
             <div className="relative">
-              <div className="w-40 h-40 bg-[#d32a2b] bg-opacity-20 rounded-full flex items-center justify-center">
-                <div className="w-24 h-24 bg-[#d32a2b] bg-opacity-30 rounded-full flex items-center justify-center">
-                  <div className="w-12 h-12 bg-[#d32a2b] rounded-full flex items-center justify-center">
+              <div className="w-40 h-40 bg-[#3b82f6] bg-opacity-20 rounded-full flex items-center justify-center">
+                <div className="w-24 h-24 bg-[#3b82f6] bg-opacity-30 rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-[#3b82f6] rounded-full flex items-center justify-center">
                     <svg
                       className="w-8 h-8 text-white animate-pulse"
                       fill="none"
@@ -62,7 +61,7 @@ const NotFoundPage = () => {
               {/* Icônes de construction */}
               <div className="absolute -top-4 -right-4 bg-white rounded-full p-2 shadow-lg">
                 <svg
-                  className="w-8 h-8 text-[#d32a2b]"
+                  className="w-8 h-8 text-[#3b82f6]"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -98,7 +97,7 @@ const NotFoundPage = () => {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
               href="/"
-              className="bg-[#d32a2b] hover:bg-red-700 text-white font-medium py-3 px-8 rounded-md transition duration-300 transform hover:-translate-y-1"
+              className="bg-[#3b82f6] hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-md transition duration-300 transform hover:-translate-y-1"
             >
               Retour à l&#39;accueil
             </Link>
@@ -106,7 +105,7 @@ const NotFoundPage = () => {
             <Link
               href="/contact"
               passHref
-              className="bg-white hover:bg-gray-100 text-[#1b314e] font-medium py-3 px-8 rounded-md transition duration-300 transform hover:-translate-y-1"
+              className="bg-white hover:bg-gray-100 text-gray-900 font-medium py-3 px-8 rounded-md transition duration-300 transform hover:-translate-y-1 border border-gray-300"
             >
               Nous contacter
             </Link>
@@ -117,7 +116,7 @@ const NotFoundPage = () => {
       {/* Pied de page */}
       <footer className="py-6 px-4 text-center text-gray-400 text-sm">
         <p>
-          © {new Date().getFullYear()} Global Solution & Services SARL. Tous
+          © {new Date().getFullYear()} TechWorld Revolution. Tous
           droits réservés.
         </p>
       </footer>

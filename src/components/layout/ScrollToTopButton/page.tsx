@@ -39,7 +39,7 @@ const ScrollToTopButton = () => {
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-4 pointer-events-none"
         }
-        bg-[#d32a2b] hover:bg-red-700 text-white`}
+        bg-[#3b82f6] hover:bg-blue-700 text-white border border-gray-200`}
       aria-label="Revenir en haut de la page"
     >
       <FontAwesomeIcon icon={faArrowUp} className="text-xl" />

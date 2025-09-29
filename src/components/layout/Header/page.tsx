@@ -7,15 +7,14 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full bg-[#1b314e] text-white shadow-lg z-50">
+    <nav className="fixed w-full bg-white text-gray-800 shadow-lg z-50 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="text-2xl font-bold">
-              <span className="text-[#d32a2b]">G</span>lobal
-              <span className="text-[#d32a2b]">S</span>olution &
-              <span className="text-[#d32a2b]">S</span>ervices
+              <span className="text-[#3b82f6]">T</span>echworld
+              <span className="text-black">R</span>evolution
             </Link>
           </div>
 
@@ -46,31 +45,31 @@ const Header = () => {
           <div className="hidden md:flex space-x-8">
             <Link
               href="/"
-              className="text-white hover:text-[#d32a2b] font-medium transition duration-300"
+              className="text-gray-800 hover:text-[#3b82f6] font-medium transition duration-300"
             >
               Accueil
             </Link>
             <Link
               href="/apropos"
-              className="text-white hover:text-[#d32a2b] font-medium transition duration-300"
+              className="text-gray-800 hover:text-[#3b82f6] font-medium transition duration-300"
             >
               À propos
             </Link>
             <Link
               href="/nos-services"
-              className="text-white hover:text-[#d32a2b] font-medium transition duration-300"
+              className="text-gray-800 hover:text-[#3b82f6] font-medium transition duration-300"
             >
               Services
             </Link>
             <Link
               href="/nos-realisations"
-              className="text-white hover:text-[#d32a2b] font-medium transition duration-300"
+              className="text-gray-800 hover:text-[#3b82f6] font-medium transition duration-300"
             >
               Réalisations
             </Link>
             <Link
               href="/contact"
-              className="text-white hover:text-[#d32a2b] font-medium transition duration-300"
+              className="text-gray-800 hover:text-[#3b82f6] font-medium transition duration-300"
             >
               Contact
             </Link>
@@ -80,7 +79,7 @@ const Header = () => {
           <div className="hidden md:block">
             <Link
               href="/demander-un-devis"
-              className="bg-[#d32a2b] hover:bg-red-700 text-white px-6 py-2 rounded-md font-medium transition duration-300"
+              className="bg-[#3b82f6] hover:bg-blue-700 text-white px-6 py-2 rounded-md font-medium transition duration-300"
             >
               Demander un devis
             </Link>
@@ -92,42 +91,42 @@ const Header = () => {
       <div
         className={`${
           mobileMenuOpen ? "block" : "hidden"
-        } md:hidden bg-[#1b314e] px-4 pb-4`}
+        } md:hidden bg-white px-4 pb-4 border-t border-gray-200`}
       >
         <div className="flex flex-col space-y-3 pt-2">
           <Link
             href="/"
-            className="text-white hover:text-[#d32a2b] font-medium py-2"
+            className="text-gray-800 hover:text-[#3b82f6] font-medium py-2"
           >
             Accueil
           </Link>
           <Link
             href="/apropos"
-            className="text-white hover:text-[#d32a2b] font-medium py-2"
+            className="text-gray-800 hover:text-[#3b82f6] font-medium py-2"
           >
             À propos
           </Link>
           <Link
             href="/nos-services"
-            className="text-white hover:text-[#d32a2b] font-medium py-2"
+            className="text-gray-800 hover:text-[#3b82f6] font-medium py-2"
           >
             Services
           </Link>
           <Link
             href="/nos-realisations"
-            className="text-white hover:text-[#d32a2b] font-medium py-2"
+            className="text-gray-800 hover:text-[#3b82f6] font-medium py-2"
           >
             Réalisations
           </Link>
           <Link
             href="/contact"
-            className="text-white hover:text-[#d32a2b] font-medium py-2"
+            className="text-gray-800 hover:text-[#3b82f6] font-medium py-2"
           >
             Contact
           </Link>
           <Link
             href="/demander-un-devis"
-            className="bg-[#d32a2b] hover:bg-red-700 text-white px-4 py-2 rounded-md font-medium text-center"
+            className="bg-[#3b82f6] hover:bg-blue-700 text-white px-4 py-2 rounded-md font-medium text-center"
           >
             Demander un devis
           </Link>

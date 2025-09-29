@@ -20,8 +20,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Global Solution and Services SARL ",
-  description: "Votre partenaire en logistique",
+  title: "TechWorld Revolution - Solutions Électriques et Technologiques",
+  description: "Votre partenaire de confiance pour l'électricité bâtiment, industrielle, réseaux informatiques, domotique et énergies renouvelables.",
 };
 
 export default function RootLayout({

@@ -1,4 +1,3 @@
-// components/TestimonialsSection.js
 import React from "react";
 
 // Composant pour afficher les étoiles de notation
@@ -9,7 +8,7 @@ const StarRating: React.FC<{ rating: number }> = ({ rating }) => {
         <svg
           key={`star-${rating}-${i}`}
           className={`w-5 h-5 ${
-            i < rating ? "text-[#d32a2b]" : "text-gray-300"
+            i < rating ? "text-[#3b82f6]" : "text-gray-300"
           }`}
           fill="currentColor"
           viewBox="0 0 20 20"
@@ -25,41 +24,41 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Marie Dupont",
-      role: "Directrice Logistique",
-      company: "Ciments du Sahel",
+      name: "Pierre Mbarga",
+      role: "Directeur d'usine",
+      company: "Industrie Camerounaise SA",
       content:
-        "Leur service de transport est exceptionnel. Ponctualité et professionnalisme garantis à chaque livraison.",
-      avatar: "images/marie.jpg",
+        "TechWorld Revolution a réalisé l'installation électrique complète de notre nouvelle usine. Professionnalisme et expertise remarquables. Je recommande !",
+      avatar: "/images/temoignage-industrie.jpg",
       rating: 5,
     },
     {
       id: 2,
-      name: "Jean Martin",
-      role: "Responsable de Production",
-      company: "Industrie Métallurgique SA",
+      name: "Marie-Louise Ngo",
+      role: "Gérante de résidence",
+      company: "Résidence Les Palmiers",
       content:
-        "La qualité des structures métalliques fabriquées dépasse nos attentes. Un partenaire fiable pour nos projets complexes.",
-      avatar: "images/jean.jpg",
-      rating: 4,
+        "Intervention rapide et efficace pour la mise aux normes de notre immeuble. L'équipe est compétente et très réactive. Service de qualité.",
+      avatar: "/images/temoignage-residentiel.jpg",
+      rating: 5,
     },
     {
       id: 3,
-      name: "Sophie Laurent",
-      role: "Chef de Projet",
-      company: "Groupe BTP Ouest",
+      name: "David Fotso",
+      role: "Responsable IT",
+      company: "Société de Services",
       content:
-        "Leur expertise en ingénierie industrielle nous a permis d'optimiser nos processus de production de manière significative.",
-      avatar: "images/sophie.jpg",
-      rating: 5,
+        "Installation de notre réseau informatique et système de surveillance. Techniciens compétents et solutions adaptées à nos besoins. Excellent rapport qualité-prix.",
+      avatar: "/images/temoignage-informatique.jpg",
+      rating: 4,
     },
   ];
 
   return (
-    <section className="py-20 bg-gray-100">
+    <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-[#1b314e] mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Nos clients témoignent
           </h2>
 
@@ -73,11 +72,11 @@ const TestimonialsSection = () => {
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-200"
             >
               <div className="flex items-center mb-6">
                 <div
-                  className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-[#d32a2b]"
+                  className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-[#3b82f6]"
                   style={{
                     backgroundImage: `url(${testimonial.avatar})`,
                     backgroundSize: "cover",
