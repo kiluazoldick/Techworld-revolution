@@ -2,14 +2,22 @@
 
 import { useEffect, useRef, useState } from "react";
 
+// Définition des types pour les props
+interface AnimatedCounterProps {
+  value: number;
+  suffix: string;
+  isInView: boolean;
+  delay?: number;
+}
+
 const StatsSection = () => {
-  const ref = useRef(null);
+  const ref = useRef<HTMLDivElement>(null);
   const [isInView, setIsInView] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
+        if (entry?.isIntersecting) {
           setIsInView(true);
           observer.disconnect();
         }
@@ -54,9 +62,14 @@ const StatsSection = () => {
   );
 };
 
-// Composant pour l'animation du compteur
-const AnimatedCounter = ({ value, suffix, isInView, delay = 0 }) => {
-  const [count, setCount] = useState(0);
+// Composant pour l'animation du compteur avec types définis
+const AnimatedCounter = ({
+  value,
+  suffix,
+  isInView,
+  delay = 0,
+}: AnimatedCounterProps) => {
+  const [count, setCount] = useState<number>(0);
 
   useEffect(() => {
     if (isInView) {
