@@ -25,7 +25,8 @@ const ContactPage = () => {
         <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold">Contactez-nous</h1>
           <p className="mt-2 text-gray-300">
-            Notre équipe d'experts est à votre disposition pour tous vos projets électriques et technologiques
+            Notre équipe d&apos;experts est à votre disposition pour tous vos
+            projets électriques et technologiques
           </p>
         </div>
       </header>
@@ -142,13 +143,27 @@ const ContactPage = () => {
                       required
                     >
                       <option value="">Sélectionnez un type de projet</option>
-                      <option value="electricite-batiment">Électricité Bâtiment</option>
-                      <option value="electricite-industrielle">Électricité Industrielle</option>
-                      <option value="reseau-informatique">Réseau Informatique</option>
-                      <option value="domotique">Domotique & Automatisation</option>
-                      <option value="surveillance">Vidéosurveillance & Sécurité</option>
-                      <option value="solaire">Énergie Solaire & Renouvelable</option>
-                      <option value="maintenance">Maintenance & Dépannage</option>
+                      <option value="electricite-batiment">
+                        Électricité Bâtiment
+                      </option>
+                      <option value="electricite-industrielle">
+                        Électricité Industrielle
+                      </option>
+                      <option value="reseau-informatique">
+                        Réseau Informatique
+                      </option>
+                      <option value="domotique">
+                        Domotique & Automatisation
+                      </option>
+                      <option value="surveillance">
+                        Vidéosurveillance & Sécurité
+                      </option>
+                      <option value="solaire">
+                        Énergie Solaire & Renouvelable
+                      </option>
+                      <option value="maintenance">
+                        Maintenance & Dépannage
+                      </option>
                       <option value="etude">Étude & Conseil Technique</option>
                       <option value="other">Autre</option>
                     </select>
@@ -210,9 +225,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="font-medium text-lg">Adresse</h3>
-                      <p className="text-gray-200">
-                        Douala, Cameroun
-                      </p>
+                      <p className="text-gray-200">Douala, Cameroun</p>
                     </div>
                   </div>
 
@@ -252,7 +265,7 @@ const ContactPage = () => {
                       </p>
                       <p className="text-gray-200">Samedi: 9h - 13h</p>
                       <p className="text-gray-200 text-sm mt-1">
-                        Service d'urgence disponible 24h/24
+                        Service d&apos;urgence disponible 24h/24
                       </p>
                     </div>
                   </div>
@@ -331,19 +344,20 @@ const ContactPage = () => {
               Questions fréquentes
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-4">
-              Trouvez rapidement des réponses à vos questions sur nos services électriques et technologiques
+              Trouvez rapidement des réponses à vos questions sur nos services
+              électriques et technologiques
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
               <h3 className="text-xl font-bold text-gray-900 mb-2">
-                Quels sont vos délais d'intervention ?
+                Quels sont vos délais d&apos;intervention ?
               </h3>
               <p className="text-gray-600">
-                Pour les urgences électriques, nous intervenons sous 2 heures. 
-                Pour les projets sur mesure, nous établissons un planning détaillé 
-                après étude technique de votre projet.
+                Pour les urgences électriques, nous intervenons sous 2 heures.
+                Pour les projets sur mesure, nous établissons un planning
+                détaillé après étude technique de votre projet.
               </p>
             </div>
 
@@ -352,8 +366,8 @@ const ContactPage = () => {
                 Proposez-vous des solutions domotiques ?
               </h3>
               <p className="text-gray-600">
-                Oui, nous installons des systèmes domotiques complets : 
-                éclairage intelligent, gestion du chauffage, sécurité connectée 
+                Oui, nous installons des systèmes domotiques complets :
+                éclairage intelligent, gestion du chauffage, sécurité connectée
                 et contrôle à distance de vos équipements.
               </p>
             </div>
@@ -363,20 +377,21 @@ const ContactPage = () => {
                 Êtes-vous certifiés pour les installations solaires ?
               </h3>
               <p className="text-gray-600">
-                Notre équipe est formée et certifiée pour l'installation de 
-                panneaux solaires photovoltaïques. Nous garantissons des 
+                Notre équipe est formée et certifiée pour l&apos;installation de
+                panneaux solaires photovoltaïques. Nous garantissons des
                 installations aux normes avec un rendement optimal.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
               <h3 className="text-xl font-bold text-gray-900 mb-2">
-                Quelle est votre zone d'intervention ?
+                Quelle est votre zone d&apos;intervention ?
               </h3>
               <p className="text-gray-600">
-                Nous intervenons principalement dans la région de Douala et ses environs. 
-                Pour les projets industriels ou complexes, nous pouvons nous déplacer 
-                sur l'ensemble du territoire camerounais.
+                Nous intervenons principalement dans la région de Douala et ses
+                environs. Pour les projets industriels ou complexes, nous
+                pouvons nous déplacer sur l&apos;ensemble du territoire
+                camerounais.
               </p>
             </div>
 
@@ -385,8 +400,9 @@ const ContactPage = () => {
                 Offrez-vous des services de maintenance ?
               </h3>
               <p className="text-gray-600">
-                Oui, nous proposons des contrats de maintenance préventive et corrective 
-                pour tous types d'installations électriques et systèmes technologiques.
+                Oui, nous proposons des contrats de maintenance préventive et
+                corrective pour tous types d&apos;installations électriques et
+                systèmes technologiques.
               </p>
             </div>
 
@@ -395,9 +411,9 @@ const ContactPage = () => {
                 Travaillez-vous avec des matériaux de qualité ?
               </h3>
               <p className="text-gray-600">
-                Nous utilisons exclusivement des matériaux de qualité supérieure, 
-                conformes aux normes en vigueur, pour garantir la sécurité et 
-                la durabilité de vos installations.
+                Nous utilisons exclusivement des matériaux de qualité
+                supérieure, conformes aux normes en vigueur, pour garantir la
+                sécurité et la durabilité de vos installations.
               </p>
             </div>
           </div>

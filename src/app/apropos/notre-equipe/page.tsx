@@ -3,7 +3,11 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowLeft,
+  faEnvelope,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 
 const NotreEquipePage = () => {
   const teamMembers = [
@@ -15,7 +19,7 @@ const NotreEquipePage = () => {
       img: "/images/directeur-technique.jpg",
       email: "david@techworld-revolution.com",
       phone: "+237 658 298 002",
-      expertise: ["Courants Forts", "Réseaux Informatiques", "Domotique"]
+      expertise: ["Courants Forts", "Réseaux Informatiques", "Domotique"],
     },
     {
       id: 2,
@@ -25,7 +29,7 @@ const NotreEquipePage = () => {
       img: "/images/ingenieur-courants-forts.jpg",
       email: "courants-forts@techworld-revolution.com",
       phone: "+237 682 840 911",
-      expertise: ["Installations Neuves", "Mise aux Normes", "Dépannage"]
+      expertise: ["Installations Neuves", "Mise aux Normes", "Dépannage"],
     },
     {
       id: 3,
@@ -35,7 +39,7 @@ const NotreEquipePage = () => {
       img: "/images/technicien-reseaux.jpg",
       email: "courants-faibles@techworld-revolution.com",
       phone: "+237 682 840 911",
-      expertise: ["Réseaux", "Vidéosurveillance", "Systèmes d'Alarme"]
+      expertise: ["Réseaux", "Vidéosurveillance", "Systèmes d'Alarme"],
     },
     {
       id: 4,
@@ -45,7 +49,7 @@ const NotreEquipePage = () => {
       img: "/images/specialiste-energies.jpg",
       email: "energies@techworld-revolution.com",
       phone: "+237 682 840 911",
-      expertise: ["Solaire", "Géothermie", "Autonomie Énergétique"]
+      expertise: ["Solaire", "Géothermie", "Autonomie Énergétique"],
     },
     {
       id: 5,
@@ -55,7 +59,7 @@ const NotreEquipePage = () => {
       img: "/images/technicien-domotique.jpg",
       email: "domotique@techworld-revolution.com",
       phone: "+237 682 840 911",
-      expertise: ["Domotique", "Automatisation", "Contrôle à Distance"]
+      expertise: ["Domotique", "Automatisation", "Contrôle à Distance"],
     },
     {
       id: 6,
@@ -65,7 +69,7 @@ const NotreEquipePage = () => {
       img: "/images/chef-projet.jpg",
       email: "projets@techworld-revolution.com",
       phone: "+237 682 840 911",
-      expertise: ["Gestion de Projet", "Planification", "Contrôle Qualité"]
+      expertise: ["Gestion de Projet", "Planification", "Contrôle Qualité"],
     },
     {
       id: 7,
@@ -75,7 +79,7 @@ const NotreEquipePage = () => {
       img: "/images/technicien-maintenance.jpg",
       email: "maintenance@techworld-revolution.com",
       phone: "+237 682 840 911",
-      expertise: ["Maintenance", "Dépannage", "Support Technique"]
+      expertise: ["Maintenance", "Dépannage", "Support Technique"],
     },
     {
       id: 8,
@@ -85,7 +89,7 @@ const NotreEquipePage = () => {
       img: "/images/consultant-industriel.jpg",
       email: "industriel@techworld-revolution.com",
       phone: "+237 682 840 911",
-      expertise: ["Industriel", "Automatisme", "Processus"]
+      expertise: ["Industriel", "Automatisme", "Processus"],
     },
   ];
 
@@ -93,23 +97,23 @@ const NotreEquipePage = () => {
     {
       name: "Courants Forts",
       count: "4",
-      description: "Experts en installations électriques traditionnelles"
+      description: "Experts en installations électriques traditionnelles",
     },
     {
       name: "Courants Faibles",
       count: "3",
-      description: "Spécialistes réseaux et communication"
+      description: "Spécialistes réseaux et communication",
     },
     {
       name: "Énergies Vertes",
       count: "2",
-      description: "Experts en solutions durables"
+      description: "Experts en solutions durables",
     },
     {
       name: "Domotique",
       count: "2",
-      description: "Innovateurs en automatisation"
-    }
+      description: "Innovateurs en automatisation",
+    },
   ];
 
   return (
@@ -138,8 +142,8 @@ const NotreEquipePage = () => {
         </div>
         <div className="container mx-auto px-6 relative z-10 h-full flex flex-col justify-center text-white">
           <div className="mb-6">
-            <Link 
-              href="/apropos" 
+            <Link
+              href="/apropos"
               className="inline-flex items-center text-white hover:text-blue-300 transition duration-300"
             >
               <FontAwesomeIcon icon={faArrowLeft} className="mr-2" />
@@ -147,10 +151,11 @@ const NotreEquipePage = () => {
             </Link>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 max-w-3xl">
-            Notre équipe d'experts
+            Notre équipe d&apos;experts
           </h1>
           <p className="text-xl max-w-2xl">
-            Des spécialistes passionnés dédiés à l'excellence technique et à votre satisfaction
+            Des spécialistes passionnés dédiés à l&apos;excellence technique et
+            à votre satisfaction
           </p>
         </div>
       </div>
@@ -160,11 +165,16 @@ const NotreEquipePage = () => {
         <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {departments.map((dept, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+              <div
+                key={index}
+                className="bg-white p-6 rounded-lg shadow-md border border-gray-200"
+              >
                 <div className="text-3xl font-bold text-[#3b82f6] mb-2">
                   {dept.count}
                 </div>
-                <div className="text-gray-900 font-medium mb-1">{dept.name}</div>
+                <div className="text-gray-900 font-medium mb-1">
+                  {dept.name}
+                </div>
                 <div className="text-gray-600 text-sm">{dept.description}</div>
               </div>
             ))}
@@ -180,7 +190,8 @@ const NotreEquipePage = () => {
               Rencontrez nos experts techniques
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Une équipe pluridisciplinaire maîtrisant tous les aspects des installations électriques et technologiques
+              Une équipe pluridisciplinaire maîtrisant tous les aspects des
+              installations électriques et technologiques
             </p>
           </div>
 
@@ -203,7 +214,7 @@ const NotreEquipePage = () => {
                     <div className="text-white">
                       <div className="flex space-x-2 mb-2">
                         {member.expertise.slice(0, 2).map((skill, index) => (
-                          <span 
+                          <span
                             key={index}
                             className="bg-[#3b82f6] bg-opacity-80 text-xs px-2 py-1 rounded"
                           >
@@ -224,15 +235,21 @@ const NotreEquipePage = () => {
                   <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                     {member.bio}
                   </p>
-                  
+
                   <div className="border-t border-gray-200 pt-4 mt-4">
                     <div className="flex flex-col space-y-2">
                       <div className="flex items-center text-gray-600 text-sm">
-                        <FontAwesomeIcon icon={faEnvelope} className="w-4 h-4 mr-2 text-[#3b82f6]" />
+                        <FontAwesomeIcon
+                          icon={faEnvelope}
+                          className="w-4 h-4 mr-2 text-[#3b82f6]"
+                        />
                         <span className="truncate">{member.email}</span>
                       </div>
                       <div className="flex items-center text-gray-600 text-sm">
-                        <FontAwesomeIcon icon={faPhone} className="w-4 h-4 mr-2 text-[#3b82f6]" />
+                        <FontAwesomeIcon
+                          icon={faPhone}
+                          className="w-4 h-4 mr-2 text-[#3b82f6]"
+                        />
                         <span>{member.phone}</span>
                       </div>
                     </div>
@@ -251,7 +268,8 @@ const NotreEquipePage = () => {
             Un projet avec notre équipe ?
           </h2>
           <p className="text-xl mb-10">
-            Contactez directement nos experts pour discuter de votre projet électrique ou technologique
+            Contactez directement nos experts pour discuter de votre projet
+            électrique ou technologique
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link

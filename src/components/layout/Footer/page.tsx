@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -20,8 +21,9 @@ const Footer: React.FC = () => {
               <span className="text-black">R</span>evolution
             </h3>
             <p className="text-gray-600 mb-6">
-              Votre partenaire de confiance pour l'électricité bâtiment, industrielle, 
-              réseaux informatiques, domotique et énergies renouvelables.
+              Votre partenaire de confiance pour l&apos;électricité bâtiment,
+              industrielle, réseaux informatiques, domotique et énergies
+              renouvelables.
             </p>
             <div className="flex space-x-4">
               <a
