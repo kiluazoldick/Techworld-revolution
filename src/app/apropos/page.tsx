@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable react/no-unescaped-entities */
 // pages/apropos.tsx
 import React from "react";
 import Head from "next/head";
@@ -77,23 +79,23 @@ const AProposPage = () => {
     {
       title: "Électricité Bâtiment",
       description: "Installations complètes pour résidentiel et commercial",
-      count: "50+"
+      count: "50+",
     },
     {
       title: "Réseaux Informatiques",
       description: "Infrastructures performantes et sécurisées",
-      count: "30+"
+      count: "30+",
     },
     {
       title: "Solutions Domotiques",
       description: "Automatisation et contrôle à distance",
-      count: "25+"
+      count: "25+",
     },
     {
       title: "Énergies Renouvelables",
       description: "Systèmes solaires et géothermiques",
-      count: "15+"
-    }
+      count: "15+",
+    },
   ];
 
   return (
@@ -125,7 +127,9 @@ const AProposPage = () => {
             L'excellence technique au service de vos projets
           </h1>
           <p className="text-xl max-w-2xl">
-            Spécialistes en installations électriques, réseaux informatiques et solutions technologiques innovantes pour particuliers et professionnels.
+            Spécialistes en installations électriques, réseaux informatiques et
+            solutions technologiques innovantes pour particuliers et
+            professionnels.
           </p>
         </div>
       </div>
@@ -146,10 +150,10 @@ const AProposPage = () => {
                 >
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-70"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <p className="text-sm">
-                      Fondation de TechWorld Revolution
-                    </p>
-                    <h3 className="text-xl font-bold">Expertise depuis 3+ ans</h3>
+                    <p className="text-sm">Fondation de TechWorld Revolution</p>
+                    <h3 className="text-xl font-bold">
+                      Expertise depuis 3+ ans
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -161,25 +165,35 @@ const AProposPage = () => {
                 Notre histoire
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                TechWorld Revolution est née de la passion pour les technologies électriques et l'innovation. 
-                Notre entreprise s'est spécialisée dans les installations électriques, à la fois pour les 
-                courants forts et les courants faibles, répondant aux besoins croissants en solutions 
-                technologiques fiables et performantes.
+                TechWorld Revolution est née de la passion pour les technologies
+                électriques et l'innovation. Notre entreprise s'est spécialisée
+                dans les installations électriques, à la fois pour les courants
+                forts et les courants faibles, répondant aux besoins croissants
+                en solutions technologiques fiables et performantes.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Forts de notre expérience, nous proposons des solutions sur mesure pour les bâtiments 
-                résidentiels, commerciaux et industriels. Notre équipe d'experts formés aux dernières 
-                technologies et normes en vigueur vous accompagne de la conception à la réalisation.
+                Forts de notre expérience, nous proposons des solutions sur
+                mesure pour les bâtiments résidentiels, commerciaux et
+                industriels. Notre équipe d'experts formés aux dernières
+                technologies et normes en vigueur vous accompagne de la
+                conception à la réalisation.
               </p>
 
               <div className="grid grid-cols-2 gap-6">
                 {expertiseAreas.map((area, index) => (
-                  <div key={index} className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                  <div
+                    key={index}
+                    className="bg-gray-50 p-4 rounded-lg border border-gray-200"
+                  >
                     <div className="text-3xl font-bold text-[#3b82f6] mb-2">
                       {area.count}
                     </div>
-                    <div className="text-gray-900 font-medium">{area.title}</div>
-                    <div className="text-gray-600 text-sm mt-1">{area.description}</div>
+                    <div className="text-gray-900 font-medium">
+                      {area.title}
+                    </div>
+                    <div className="text-gray-600 text-sm mt-1">
+                      {area.description}
+                    </div>
                   </div>
                 ))}
               </div>
@@ -196,7 +210,8 @@ const AProposPage = () => {
               Nos domaines d'expertise
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Une gamme complète de services pour répondre à tous vos besoins électriques et technologiques
+              Une gamme complète de services pour répondre à tous vos besoins
+              électriques et technologiques
             </p>
           </div>
 
@@ -246,7 +261,8 @@ const AProposPage = () => {
               Nos valeurs fondamentales
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Ces principes guident chacune de nos interventions et installations
+              Ces principes guident chacune de nos interventions et
+              installations
             </p>
           </div>
 
@@ -277,7 +293,8 @@ const AProposPage = () => {
               Rencontrez notre équipe
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Des experts dédiés à l'excellence technique et à votre satisfaction
+              Des experts dédiés à l'excellence technique et à votre
+              satisfaction
             </p>
           </div>
 
@@ -331,8 +348,8 @@ const AProposPage = () => {
             Un projet électrique ou technologique ?
           </h2>
           <p className="text-xl mb-10">
-            Notre équipe d'experts est à votre disposition pour étudier votre projet 
-            et vous proposer la solution la plus adaptée à vos besoins.
+            Notre équipe d'experts est à votre disposition pour étudier votre
+            projet et vous proposer la solution la plus adaptée à vos besoins.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link

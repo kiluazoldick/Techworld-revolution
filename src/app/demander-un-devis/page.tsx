@@ -37,7 +37,8 @@ const DemanderUnDevisPage = () => {
             Demander un devis
           </h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Obtenez une estimation précise pour vos projets électriques et technologiques
+            Obtenez une estimation précise pour vos projets électriques et
+            technologiques
           </p>
         </div>
       </header>
@@ -81,9 +82,12 @@ const DemanderUnDevisPage = () => {
             <div className="lg:w-2/3">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
                 <div className="p-6 bg-gray-900 text-white">
-                  <h2 className="text-2xl font-bold">Formulaire de demande de devis</h2>
+                  <h2 className="text-2xl font-bold">
+                    Formulaire de demande de devis
+                  </h2>
                   <p>
-                    Décrivez votre projet en détail pour obtenir un devis personnalisé
+                    Décrivez votre projet en détail pour obtenir un devis
+                    personnalisé
                   </p>
                 </div>
 
@@ -91,10 +95,10 @@ const DemanderUnDevisPage = () => {
                 <div className="p-1">
                   <iframe
                     title="Formulaire de demande de devis TechWorld Revolution"
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSe-QtnAxQgM0CCbD2HQ_pGjRqO11o3-f8JYdYNs_VLdMNX6-A/viewform?embedded=true"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSejGA9IS9wTKkK6xdEyCGvgpwkE_cKv5LcJjqkH2D5kZpsVFw/viewform?usp=dialog"
                     width="100%"
                     height="877"
-                    style={{ border: 0, minHeight: '800px' }}
+                    style={{ border: 0, minHeight: "800px" }}
                   >
                     Chargement…
                   </iframe>
@@ -120,8 +124,9 @@ const DemanderUnDevisPage = () => {
                   <div className="ml-3">
                     <p className="text-sm text-blue-700">
                       <strong>Note importante :</strong> Tous les champs marqués
-                      d&#39;un astérisque (*) sont obligatoires. Plus votre description 
-                      sera précise, plus notre devis sera exact et adapté à vos besoins.
+                      d&#39;un astérisque (*) sont obligatoires. Plus votre
+                      description sera précise, plus notre devis sera exact et
+                      adapté à vos besoins.
                     </p>
                   </div>
                 </div>
@@ -149,8 +154,8 @@ const DemanderUnDevisPage = () => {
                         Type de projet
                       </h4>
                       <p className="text-gray-600 text-sm">
-                        Précisez s'il s'agit d'une installation neuve, rénovation, 
-                        dépannage ou maintenance.
+                        Précisez s&apos;il s&apos;agit d&apos;une installation
+                        neuve, rénovation, dépannage ou maintenance.
                       </p>
                     </div>
                   </div>
@@ -168,7 +173,8 @@ const DemanderUnDevisPage = () => {
                           icon={faHome}
                           className="mr-1 text-[#3b82f6]"
                         />
-                        Indiquez la surface à équiper et l'adresse exacte du chantier.
+                        Indiquez la surface à équiper et l&apos;adresse exacte
+                        du chantier.
                       </p>
                     </div>
                   </div>
@@ -186,7 +192,8 @@ const DemanderUnDevisPage = () => {
                           icon={faNetworkWired}
                           className="mr-1 text-[#3b82f6]"
                         />
-                        Courants forts/faibles, puissance nécessaire, équipements spécifiques.
+                        Courants forts/faibles, puissance nécessaire,
+                        équipements spécifiques.
                       </p>
                     </div>
                   </div>
@@ -243,7 +250,10 @@ const DemanderUnDevisPage = () => {
                           clipRule="evenodd"
                         />
                       </svg>
-                      <span>Expertise certifiée en électricité et nouvelles technologies</span>
+                      <span>
+                        Expertise certifiée en électricité et nouvelles
+                        technologies
+                      </span>
                     </li>
                     <li className="flex items-start">
                       <svg
@@ -273,7 +283,9 @@ const DemanderUnDevisPage = () => {
                           clipRule="evenodd"
                         />
                       </svg>
-                      <span>Respect strict des normes NFC 15-100 et réglementations</span>
+                      <span>
+                        Respect strict des normes NFC 15-100 et réglementations
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -284,7 +296,8 @@ const DemanderUnDevisPage = () => {
                   Besoin d&#39;aide technique ?
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Notre équipe d'experts est disponible pour vous conseiller sur votre projet.
+                  Notre équipe d&apos;experts est disponible pour vous
+                  conseiller sur votre projet.
                 </p>
                 <div className="flex items-center text-[#3b82f6] font-medium">
                   <svg
@@ -313,8 +326,12 @@ const DemanderUnDevisPage = () => {
                   techworldrevolution23@gmail.com
                 </div>
                 <div className="mt-4 text-sm text-gray-600">
-                  <FontAwesomeIcon icon={faSolarPanel} className="mr-2 text-[#3b82f6]" />
-                  <strong>Service d'urgence :</strong> Disponible 24h/24 pour les dépannages électriques
+                  <FontAwesomeIcon
+                    icon={faSolarPanel}
+                    className="mr-2 text-[#3b82f6]"
+                  />
+                  <strong>Service d&apos;urgence :</strong> Disponible 24h/24
+                  pour les dépannages électriques
                 </div>
               </div>
             </div>
@@ -337,9 +354,10 @@ const DemanderUnDevisPage = () => {
                 Combien de temps pour recevoir mon devis ?
               </h3>
               <p className="text-gray-600">
-                Nous vous fournissons un devis personnalisé dans un délai de 24 heures 
-                ouvrées après réception de votre demande complète. Pour les projets 
-                complexes nécessitant une étude technique, le délai peut être de 48 heures.
+                Nous vous fournissons un devis personnalisé dans un délai de 24
+                heures ouvrées après réception de votre demande complète. Pour
+                les projets complexes nécessitant une étude technique, le délai
+                peut être de 48 heures.
               </p>
             </div>
 
@@ -348,9 +366,10 @@ const DemanderUnDevisPage = () => {
                 Les devis sont-ils payants ?
               </h3>
               <p className="text-gray-600">
-                Non, tous nos devis sont entièrement gratuits et sans engagement. 
-                Nous vous fournissons une estimation détaillée incluant la main d'œuvre, 
-                les matériaux et les délais de réalisation.
+                Non, tous nos devis sont entièrement gratuits et sans
+                engagement. Nous vous fournissons une estimation détaillée
+                incluant la main d&apos;œuvre, les matériaux et les délais de
+                réalisation.
               </p>
             </div>
 
@@ -359,9 +378,9 @@ const DemanderUnDevisPage = () => {
                 Proposez-vous une visite technique ?
               </h3>
               <p className="text-gray-600">
-                Oui, pour les projets importants nous proposons une visite technique 
-                gratuite sur site afin d'établir un devis précis tenant compte des 
-                spécificités de votre installation.
+                Oui, pour les projets importants nous proposons une visite
+                technique gratuite sur site afin d&apos;établir un devis précis
+                tenant compte des spécificités de votre installation.
               </p>
             </div>
 
@@ -370,9 +389,10 @@ const DemanderUnDevisPage = () => {
                 Quelle est la durée de validité d&#39;un devis ?
               </h3>
               <p className="text-gray-600">
-                Nos devis sont valables 30 jours à compter de la date d'émission. 
-                Passé ce délai, les tarifs peuvent être révisés en fonction des 
-                fluctuations du marché des matériaux électriques.
+                Nos devis sont valables 30 jours à compter de la date
+                d&apos;émission. Passé ce délai, les tarifs peuvent être révisés
+                en fonction des fluctuations du marché des matériaux
+                électriques.
               </p>
             </div>
 
@@ -381,9 +401,10 @@ const DemanderUnDevisPage = () => {
                 Travaillez-vous avec des matériaux de qualité ?
               </h3>
               <p className="text-gray-600">
-                Absolument. Nous utilisons exclusivement des matériaux de qualité 
-                supérieure, conformes aux normes en vigueur. Tous nos équipements 
-                sont garantis et proviennent de fournisseurs reconnus.
+                Absolument. Nous utilisons exclusivement des matériaux de
+                qualité supérieure, conformes aux normes en vigueur. Tous nos
+                équipements sont garantis et proviennent de fournisseurs
+                reconnus.
               </p>
             </div>
 
@@ -392,9 +413,10 @@ const DemanderUnDevisPage = () => {
                 Êtes-vous assurés et certifiés ?
               </h3>
               <p className="text-gray-600">
-                Oui, notre entreprise est assurée en responsabilité civile professionnelle 
-                et nos techniciens sont certifiés. Nous respectons scrupuleusement 
-                les normes NFC 15-100 pour toutes nos installations.
+                Oui, notre entreprise est assurée en responsabilité civile
+                professionnelle et nos techniciens sont certifiés. Nous
+                respectons scrupuleusement les normes NFC 15-100 pour toutes nos
+                installations.
               </p>
             </div>
           </div>

@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
       company: "Industrie Camerounaise SA",
       content:
         "TechWorld Revolution a réalisé l'installation électrique complète de notre nouvelle usine. Professionnalisme et expertise remarquables. Je recommande !",
-      avatar: "/images/temoignage-industrie.jpg",
+      avatar: "/images/david.jpg",
       rating: 5,
     },
     {
@@ -39,7 +39,7 @@ const TestimonialsSection = () => {
       company: "Résidence Les Palmiers",
       content:
         "Intervention rapide et efficace pour la mise aux normes de notre immeuble. L'équipe est compétente et très réactive. Service de qualité.",
-      avatar: "/images/temoignage-residentiel.jpg",
+      avatar: "/images/sophie.jpg",
       rating: 5,
     },
     {
@@ -49,7 +49,7 @@ const TestimonialsSection = () => {
       company: "Société de Services",
       content:
         "Installation de notre réseau informatique et système de surveillance. Techniciens compétents et solutions adaptées à nos besoins. Excellent rapport qualité-prix.",
-      avatar: "/images/temoignage-informatique.jpg",
+      avatar: "/images/thomas.jpg",
       rating: 4,
     },
   ];

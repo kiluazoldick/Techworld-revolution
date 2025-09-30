@@ -13,16 +13,18 @@ const AboutSection = () => {
               Qui sommes-nous ?
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              TechWorld Revolution est spécialisée dans les installations électriques, 
-              à la fois pour les courants forts et les courants faibles. Nous proposons 
-              des solutions sur mesure pour répondre aux besoins de nos clients, qu'il 
-              s'agisse de bâtiments résidentiels, commerciaux ou industriels.
+              TechWorld Revolution est spécialisée dans les installations
+              électriques, à la fois pour les courants forts et les courants
+              faibles. Nous proposons des solutions sur mesure pour répondre aux
+              besoins de nos clients, qu&apos;il s&apos;agisse de bâtiments
+              résidentiels, commerciaux ou industriels.
             </p>
             <p className="text-lg text-gray-600 mb-8">
-              Notre équipe est composée d'experts en électricité et en communication, 
-              formés aux dernières technologies et normes en vigueur. Nous sommes à 
-              l'écoute de nos clients pour comprendre leurs besoins spécifiques et 
-              leur proposer des solutions adaptées à leur budget.
+              Notre équipe est composée d&apos;experts en électricité et en
+              communication, formés aux dernières technologies et normes en
+              vigueur. Nous sommes à l&apos;écoute de nos clients pour
+              comprendre leurs besoins spécifiques et leur proposer des
+              solutions adaptées à leur budget.
             </p>
 
             <ul className="space-y-3">
@@ -75,7 +77,7 @@ const AboutSection = () => {
                   Notre équipe à votre service
                 </h3>
                 <p className="text-sm">
-                  Experts dédiés à l'excellence technique
+                  Experts dédiés à l&apos;excellence technique
                 </p>
               </div>
             </div>
